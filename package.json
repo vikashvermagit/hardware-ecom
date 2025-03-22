@@ -1,0 +1,27 @@
+{
+  "name": "pro_hardware_website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.0.0",
+    "@use-gesture/react": "^10.3.1",
+    "autoprefixer": "10.4.19",
+    "capacitor": "^0.5.6",
+    "firebase": "^10.12.2",
+    "next": "14.2.3",
+    "postcss": "8.4.38",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-range": "^1.8.14",
+    "react-slick": "^0.30.2",
+    "react-toastify": "^10.0.5",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "3.4.3"
+  }
+}

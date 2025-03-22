@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollable-component {
+    /* Set overflow to hidden to hide the scrollbar */
+    overflow: hidden;
+  }
+  
+  /* Ensure content can still scroll if necessary */
+  .scrollable-component::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+  }
